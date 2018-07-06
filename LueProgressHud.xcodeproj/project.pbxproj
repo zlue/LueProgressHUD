@@ -14,6 +14,7 @@
 		044AA05420EDFCEE009D5FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044AA05220EDFCEE009D5FDC /* LaunchScreen.storyboard */; };
 		044AA05F20EDFCEE009D5FDC /* LueProgressHudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AA05E20EDFCEE009D5FDC /* LueProgressHudTests.swift */; };
 		044AA06A20EDFCEF009D5FDC /* LueProgressHudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AA06920EDFCEF009D5FDC /* LueProgressHudUITests.swift */; };
+		044AA0B420EF05EA009D5FDC /* LueProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AA0B320EF05EA009D5FDC /* LueProgressHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		044AA06520EDFCEF009D5FDC /* LueProgressHudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LueProgressHudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044AA06920EDFCEF009D5FDC /* LueProgressHudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LueProgressHudUITests.swift; sourceTree = "<group>"; };
 		044AA06B20EDFCEF009D5FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044AA0B320EF05EA009D5FDC /* LueProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LueProgressHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				044AA05020EDFCEE009D5FDC /* Assets.xcassets */,
 				044AA05220EDFCEE009D5FDC /* LaunchScreen.storyboard */,
 				044AA05520EDFCEE009D5FDC /* Info.plist */,
+				044AA0B320EF05EA009D5FDC /* LueProgressHUD.swift */,
 			);
 			path = LueProgressHud;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044AA0B420EF05EA009D5FDC /* LueProgressHUD.swift in Sources */,
 				044AA04C20EDFCEC009D5FDC /* ViewController.swift in Sources */,
 				044AA04A20EDFCEC009D5FDC /* AppDelegate.swift in Sources */,
 			);
