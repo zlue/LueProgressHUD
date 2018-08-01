@@ -15,6 +15,7 @@
 		044AA05F20EDFCEE009D5FDC /* LueProgressHudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AA05E20EDFCEE009D5FDC /* LueProgressHudTests.swift */; };
 		044AA06A20EDFCEF009D5FDC /* LueProgressHudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AA06920EDFCEF009D5FDC /* LueProgressHudUITests.swift */; };
 		044AA0B420EF05EA009D5FDC /* LueProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044AA0B320EF05EA009D5FDC /* LueProgressHUD.swift */; };
+		25D71B882111537A0061B8F3 /* LueQRCodeConstroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D71B872111537A0061B8F3 /* LueQRCodeConstroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		044AA06920EDFCEF009D5FDC /* LueProgressHudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LueProgressHudUITests.swift; sourceTree = "<group>"; };
 		044AA06B20EDFCEF009D5FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044AA0B320EF05EA009D5FDC /* LueProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LueProgressHUD.swift; sourceTree = "<group>"; };
+		25D71B872111537A0061B8F3 /* LueQRCodeConstroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LueQRCodeConstroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				044AA04920EDFCEC009D5FDC /* AppDelegate.swift */,
 				044AA04B20EDFCEC009D5FDC /* ViewController.swift */,
+				25D71B872111537A0061B8F3 /* LueQRCodeConstroller.swift */,
 				044AA04D20EDFCEC009D5FDC /* Main.storyboard */,
 				044AA05020EDFCEE009D5FDC /* Assets.xcassets */,
 				044AA05220EDFCEE009D5FDC /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25D71B882111537A0061B8F3 /* LueQRCodeConstroller.swift in Sources */,
 				044AA0B420EF05EA009D5FDC /* LueProgressHUD.swift in Sources */,
 				044AA04C20EDFCEC009D5FDC /* ViewController.swift in Sources */,
 				044AA04A20EDFCEC009D5FDC /* AppDelegate.swift in Sources */,
